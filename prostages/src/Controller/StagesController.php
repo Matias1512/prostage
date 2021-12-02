@@ -16,3 +16,4 @@ class StagesController extends AbstractController
         return $this->render('stages/index.html.twig',['id'=>$id]);
     }
 }
+

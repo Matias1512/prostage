@@ -16,5 +16,31 @@
         <li>Your controller at <code><a href="{{ 'C:/Temp/symfony/prostage/prostages/src/Controller/StagesController.php'|file_link(0) }}">src/Controller/StagesController.php</a></code></li>
         <li>Your template at <code><a href="{{ 'C:/Temp/symfony/prostage/prostages/templates/stages/index.html.twig'|file_link(0) }}">templates/stages/index.html.twig</a></code></li>
     </ul>
+
+        <h1>ProStage</h1>
+    
+    <table>
+    
+        <tr>
+        {% block en-teteTab}
+            <th>Nom</th>
+            <th>Titre</th>
+            <th>Activité</th>
+            <th>Adresse mail</th>
+            <th>Formations</th>
+            <th>Action</th>
+        {% endblock %}
+        </tr>
+    
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
 </div>
 {% endblock %}

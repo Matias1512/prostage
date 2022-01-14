@@ -20,16 +20,18 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-        <th scope="row"></th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td> <a class="nav-link" href="/stages/1">Consulter</a></td>
-        </tr>
+        {# {% for stage in listeStage %}
+            <tr>
+            <th scope="row">{{stage.id}}</th>
+            <td>{{stage.titre}}</td>
+            <td>{{stage.nom}}</td>
+            <td>{{stage.detail}}</td>
+            <td>{{stage.email}}</td>
+            <td>{{stage.entreprise}}</td>
+            <td>{{stage.formations}}</td>
+            <td> <a class="nav-link" href="/stages/1">Consulter</a></td>
+            </tr>
+        {% endfor %} #}
     </tbody>
     </table>
 </div>

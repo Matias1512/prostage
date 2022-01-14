@@ -1,7 +1,4 @@
 {% extends 'base.html.twig' %}
-
-{% block title %}Hello Tp1Controller!{% endblock %}
-
 {% block body %}
 <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
@@ -9,12 +6,31 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>Bienvenue sur la page d'accueil de Prostages</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Temp/symfony/prostages/src/Controller/Tp1Controller.php'|file_link(0) }}">src/Controller/Tp1Controller.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Temp/symfony/prostages/templates/tp1/index.html.twig'|file_link(0) }}">templates/tp1/index.html.twig</a></code></li>
-    </ul>
+    Liste des stages
+    <table class="table">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nom</th>
+        <th scope="col">Titre</th>
+        <th scope="col">Activité</th>
+        <th scope="col">Adresse mail</th>
+        <th scope="col">Formations</th>
+        <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row"></th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> <a class="nav-link" href="/stages/1">Consulter</a></td>
+        </tr>
+    </tbody>
+    </table>
 </div>
 {% endblock %}
